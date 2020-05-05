@@ -46,18 +46,20 @@ p {
 ol {
   list-style: none;
   margin-top: 20px;
+  margin-bottom: 30px;
   counter-reset: counter;
-}
-ol li {
-  counter-increment: counter;
-}
-ol li::before {
-  content: counter(counter) ".  ";
-  color: #00638f;
-  font-weight: bold;
-}
 
+  li {
+    counter-increment: counter;
 
+    &::before {
+      content: counter(counter) ".  ";
+      color: #00638f;
+      font-weight: bold;
+    }
+  }
+
+}
 
 .container {
   min-height: 100%;
@@ -124,6 +126,8 @@ footer {
 .container-iframe {
   position: relative;
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
   overflow: hidden;
   padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
