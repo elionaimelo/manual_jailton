@@ -26,26 +26,29 @@
 
   }
 
+
+
   .tuto {
     text-align: center;
     font-weight: 500;
     line-height: 22px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     margin-top: 20px;
     color: #707C97;
   }
 
   ul {
       margin-left: -32px;
+      width: 100%;
   }
 
   li {
       font-size: 16px;
       font-weight: bold;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       text-transform: uppercase;
       line-height: 22px;
-      color: #707C97;
+      color: #707C97; 
 
       .p-60 {
         padding-left: 60px;

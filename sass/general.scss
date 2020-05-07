@@ -97,17 +97,28 @@ ul {
       border-top-left-radius: 6px;
       border-top-right-radius: 6px;
       color: #00638f;
+
+      .h1, h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        line-height: 35px;
+      }
     }
 
     .conteudo {
       padding: 30px;
+
+      li {
+        margin-bottom: 7px;
+        img {
+          margin: 25px 0;
+        }
+      }
+     
     }
   }
 
-  .h1, h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
+
 }
 
 
